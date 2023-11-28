@@ -1,0 +1,39 @@
+/* App.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .price-display {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  .card{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
